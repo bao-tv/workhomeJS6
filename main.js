@@ -55,7 +55,7 @@ function soNT(n) {
 function ex5() {
     let n5 = +document.getElementById('ex5-n').value;
     let resultB5 = document.getElementById('resultB5');
-    for (let i = 2; i < n5; i++) {
+    for (let i = 2; i <= n5; i++) {
         if (soNT(i)) resultB5.innerHTML += i +' ';
     }
 }
